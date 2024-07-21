@@ -1,0 +1,38 @@
+.main{
+    padding: 0 20px;
+}
+@media (max-width:975px) {
+    .main{
+        padding: 0;
+    }
+}
+:host {
+    ::ng-deep .p-progressbar-value {
+        background-color: #F28B3A;
+    }    
+
+}
+:host {
+    ::ng-deep .vert  .p-progressbar-value {
+        background-color: #008216;
+    }    
+
+}
+:host {
+    ::ng-deep .bleu  .p-progressbar-value {
+        background-color: #70A6E8;
+    }    
+
+}
+:host {
+    ::ng-deep .p-progressbar {
+        height: 12px;
+    }    
+
+}
+:host {
+    ::ng-deep .p-progressbar-label {
+        display: none;
+    }    
+
+}

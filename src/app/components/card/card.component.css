@@ -1,0 +1,55 @@
+.cardbox{
+    width: fit-content;
+    border-right: 2px solid #EBEBEB;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardbox img{
+    width: 85%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    line-height: 20px;
+}
+.top p, .bottom p{
+    font-size: 11px;
+}
+.current-balance{
+    font-size: 22px;
+}
+@media (max-width: 1300px) { 
+    .current-balance{
+        font-size: 18px;
+    }
+    .cardbox{
+        width: 70%;
+
+    }
+}    
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.prog-bar{
+    width: 70%;
+}
+:host {
+    ::ng-deep .p-progressbar {
+        height: 12px;
+        width: 100%;
+    }    
+
+}
+:host {
+    ::ng-deep .p-progressbar-label {
+        display: none;
+    }    
+
+}
+

@@ -1,0 +1,54 @@
+.box{
+    position: fixed;
+    border-right: 2px solid #EBEBEB;
+    min-height: 100vh;
+    max-width: fit-content;
+    width: 20vw;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lightspan{
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 0 15px 0;
+}
+:host {
+    ::ng-deep .p-menu {
+        background-color: transparent;
+        padding: 0;
+    }    
+
+}
+:host {
+    ::ng-deep .p-menu-list {
+        background-color: transparent;
+        padding: 0;
+    }    
+
+}
+@media (max-height:1100px) {
+    .box{
+        position: fixed;
+        border-right: 2px solid #EBEBEB;
+        min-height: 100vh;
+        max-width: fit-content;
+        width: 20vw;
+        padding: 0 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+

@@ -1,0 +1,49 @@
+<div class="surface-card shadow-2  border-round" style="padding:10px 20px 0 20px;">
+  <h2 style="font-size: 25px; margin: 0;">Cards</h2>
+      <div class="top">
+        <div class="cardbox">
+          <i class="pi pi-angle-left" style="font-size: 1.5rem ; color:#247BBD"></i>
+          <img src="assets/Group 11.png" alt="">
+          <i class="pi pi-angle-right" style="font-size: 1.5rem ; color:#247BBD"></i>
+        </div>
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <span class="current-balance" style="color: #247BBD; margin: 0; font-weight: 300">
+                <span style="font-size: 15px;">$</span> 2850.75
+              </span>
+              <p style="color: #CACACA; margin: 0; font-weight: 300;">Current balance</p>
+            </div>
+            <div>
+              <span style="font-size: 18px; color: #439A86; margin: 0; font-weight: 300">
+                <span style="font-size: 15px;">$</span> 1500.50
+              </span><br>
+              <p style="color: #CACACA; margin: 0; font-weight: 300;">Income</p>
+            </div>
+            <div>
+
+              <span style="font-size: 18px; color: #BB4430; margin: 0; font-weight: 300;">
+                <span style="font-size: 15px;">$</span> 350.60
+              </span>
+              <p style="color: #CACACA; margin: 0; font-weight: 300;">Outcome</p>
+            </div>
+        </div>
+             
+      </div>
+      <div class="bottom" style="padding: 0 15px; margin-top: 20px;">
+        <div class="prog-bar">
+          <p-progressBar [value]="25"/>
+          <div style="display: flex; justify-content: space-between;">
+            <p style="color: #CACACA; margin: 0; font-weight: 300;">Weekly payment limit</p>
+            <p style="color: #000000; margin: 0; font-weight: 300;">$350.60/$4000</p>
+
+          </div>
+
+        </div>
+        <div class="flex justify-content-center" style="display:flex; flex-direction: column; align-items: end;">
+          <p-inputSwitch [(ngModel)]="checked" />
+          <p style="color: #CACACA; margin: 0; font-weight: 300; text-align: end;">Deactivate card</p>
+        </div>
+
+      </div>
+</div>
+

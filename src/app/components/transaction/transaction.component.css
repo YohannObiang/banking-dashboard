@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+  }
+.iconbox{
+    height:25px;
+    width:25px;
+    border-radius: 7px;
+    background-color: #EFEFEF;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+@media (max-width:975px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+

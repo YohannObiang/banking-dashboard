@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.menuborder div{
+    border: none;
+}
+.menuborder span{
+    color: #838383;
+}
+.lightspan{
+    font-weight: 200;
+}
+button{
+    background: #F9C044;
+    border: #F9C044;
+    color: #404040;
+}
+.bottom span{
+    color: #404040;
+}
+span, p , h1, h2, a{
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    text-decoration: none;
+}
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
